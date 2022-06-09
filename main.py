@@ -244,7 +244,7 @@ def onmessage(update,bot:ObigramClient):
         tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'DAMIANBZM'
+        tl_admin_user = 'kvotheeR'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -481,7 +481,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             start_msg = 'Bot: 🤖UploadsBot🌩 v7.1\n'
-            start_msg+= 'Desarrollador: @ReyDelHarem\n'
+            start_msg+= 'Propietario: @kvotheeR\n'
             start_msg+= 'Api:Bienvenido a 🤖UploadsBot🌩 difrute de mi servicios\n'
             start_msg+= 'Uso: Envie Enlaces De Descarga Directa y Archivos Para Procesar (Pero  Antes De Empezar configure sus datos de Usuario , Vea El /tutorial para mas info)\n'
             bot.editMessageText(message,start_msg)
@@ -544,9 +544,9 @@ def onmessage(update,bot:ObigramClient):
             #    bot_token = os.environ.get('bot_token')
             #    
                 # set in debug
-            #    api_id = 16923599
-            #    api_hash = 'f69ab9f221ce44a4f0541e6f4624f431'
-            #    bot_token = '5381936969:AAEvkcrTfArGwGyN4IZRvKEJqawfhumBADE'
+            #    api_id = 12832926
+            #    api_hash = 'b5520bdbf4b2a666c86250040e5f2ede'
+            #    bot_token = '5461017110:AAGivXhqXFMVc8sZ8T-plEM10qJpOxtFVRA'
 
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
@@ -562,7 +562,7 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #set in debug
-    bot_token = '5381936969:AAEvkcrTfArGwGyN4IZRvKEJqawfhumBADE'
+    bot_token = '5461017110:AAGivXhqXFMVc8sZ8T-plEM10qJpOxtFVRA'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
